@@ -38,19 +38,19 @@ public class Elliyah : Person
 		this.curiousity = curiousity;
     }
 
-	void niceUp(Elliyah target)
+	public void niceUp(Elliyah target)
     {
 		this.niceness += 10;
 		Console.WriteLine("그녀의 착함이 +10 올라갔다!");
     }
 	
-	void curiousityUp(Elliyah target)
+	public void curiousityUp(Elliyah target)
     {
 		this.curiousity += 10;
 		Console.WriteLine("그녀의 호기심이 +10 올라갔다!");
     }
 	
-	void IntelligenceUp(Elliyah target)
+	public void intelligenceUp(Elliyah target)
     {
 		this.intelligence += 10;
 		Console.WriteLine("그녀의 똑똑함이 +10 올라갔다!");
