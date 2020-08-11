@@ -18,13 +18,15 @@ public class Person
 
 public class Hasheti : Person
 {
-	int violence;
-	int socialStatus;
+	int stress;
+	int talk;
+	int mana;
 
-	public Hasheti(string name, int intelligence, int age, int money, int violence, int socialStatus) : base(name, intelligence, age, money)
+	public Hasheti(string name, int intelligence, int age, int money, int stress, int talk, int mana) : base(name, intelligence, age, money)
 	{
-		this.violence = violence;
-		this.socialStatus = socialStatus;
+		this.stress = stress;
+		this.talk = talk;
+		this.mana = mana;
     }
 }
 

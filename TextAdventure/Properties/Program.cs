@@ -7,7 +7,7 @@ namespace TextAdventure
         static void Main(string[] args)
         {
             Console.ReadLine();
-            Hasheti hasheti = new Hasheti("하셰티예", 100, 200, 21, 25, 70);
+            Hasheti hasheti = new Hasheti("하셰티예", 100, 200, 21, 25, 70, 50);
             Elliyah elliyah = new Elliyah("엘리야", 130, 100, 21, 10, 25);
 
             Console.WriteLine("게임을 진행하기 위해서는 엔터키, y키, n키만이 필요합니다.엔터키로 진행하여 주십시오.");
